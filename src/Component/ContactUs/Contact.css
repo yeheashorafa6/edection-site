@@ -1,0 +1,74 @@
+.message-title .message{
+    color: #1428bf9a;
+}
+
+.message-content p{
+    color: #9f9d9d;
+}
+
+.message-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.message-list .message-items{
+    font-size: 18px;
+}
+
+.message-items span{
+    color: #1428bf9a;
+}
+
+
+form{
+    border: 1px solid rgba(182, 179, 179, 0.5);
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(81, 80, 80, 0.5);
+}
+
+.form-group .label-input{
+    font-size: 20px;
+    color: #1428BF;
+}
+
+.form-group .form-control{
+    padding: 10px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    background-color: #EAEDFA !important;
+
+}
+
+.form-group .form-control:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+form .btn{
+    background-color: #1428bf88 !important;
+    color:var(--light-color) !important;
+    text-align: center;
+    position: relative;
+    left: 40%;
+}
+
+form .btn:hover{
+    background-color: #1428bf88 !important;
+    color: #1428bf !important;
+}
+
+.message-sending{
+    padding: 20px;
+    margin: 20px;
+    font-size: 18px;
+}
+
+.green{
+    color: green;
+}
+
+.red{
+    color: red;
+}

@@ -1,0 +1,26 @@
+.gallerys {
+    justify-content: space-around;
+}
+
+.gallerys .gallery img {
+    border-radius: 10px;
+
+}
+.gallery-btn{
+    text-align : center;
+
+}
+.gallery-btn .btn{
+    background-color: #1428bf88 !important;
+    color:var(--light-color) !important;
+}
+
+.gallery-btn .btn:hover{
+    background-color: #1428bf88 !important;
+    color: #1428bf !important;
+}
+.btn .arrow{
+    font-size: 18px;
+    margin-left: 10px;
+}
+

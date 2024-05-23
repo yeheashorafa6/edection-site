@@ -1,0 +1,30 @@
+.footer-border{
+    border-top: 1px solid #1428bf9a;
+    display:  flex ;
+    justify-content: space-around;
+}
+
+
+.copyRight h3{
+    font-size: 16px;
+    padding: 15px;
+
+}
+
+.servic{
+    float: right;
+}
+
+.servic h4{
+    display: inline-block;
+    font-size: 16px;
+    padding: 15px;
+    cursor: pointer;
+    transition: all .5s ease;
+
+}
+
+.servic h4:hover{
+    color: #1428bf9a;
+
+}

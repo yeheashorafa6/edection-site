@@ -1,0 +1,131 @@
+
+.Navbar{
+    position: fixed;
+     top: 0; 
+     left: 0;
+     color: var(--light-color);
+     padding: 4px 0;
+     z-index: 10;
+     background: transparent;
+     transition: all .5s ease;
+}
+
+.navbar.colorChange {
+    background-color:rgba(8,0,58,.6) ;
+}
+
+.Navbar .nav-logo{
+    padding: 10px;
+    cursor: pointer;
+}
+
+.nav-logo .nav-logo-img{
+    margin-right: 1rem;
+    width: 70px;
+
+
+}
+
+.nav-logo .nav-title{
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer; 
+}
+.nav-list{
+    padding: 10px;
+
+}
+.nav-items .nav-item{
+    margin: 5px 20px;
+} 
+.nav-items .nav-item .nav-link{
+    transition: all .5s ease;
+    font-size: 16px;
+}
+
+.nav-items .nav-item .nav-link.active ,
+.nav-items .nav-item .nav-link:hover{
+    color: var(--dark-color);
+    font-weight: 600;
+
+}
+.menuToggle{
+    display: none !important;
+}
+.menu{
+    display: none !important;
+}
+
+
+@media (max-width : 1200px) {
+
+    
+    .nav-logo .nav-title{
+        font-size: 20px;
+    }
+    .nav-items .nav-item {
+        margin: 5px 0px;
+    }
+    .nav-items .nav-item .nav-link {
+        font-size: 18px !important;
+    }
+  
+  
+
+}
+
+@media (max-width : 992px) {
+    .nav-item{
+        margin: 10px 8px !important;
+    }
+    .nav-item .nav-link{
+        font-size: 16px !important;
+    }
+
+    .nav-logo .nav-logo-img{
+        width: 50px;    
+    }
+    
+}
+@media (max-width : 860px) {
+    .nav-list{
+        padding: 15px 0px;
+    }
+
+    .nav-items{
+        position: fixed;
+        top: 0;
+        right: 0;
+        background-color: rgb(8,0,58);
+        z-index: -1; 
+        width: 250px !important;
+        height: 100vh;
+        padding: 70px 5px !important;
+        transition: all .5s ease;
+    }
+
+    .nav-item{
+        display: block !important;
+        margin: 15px 40px !important;
+        width: 100%;
+    }
+    .nav-link{
+        padding: 10px;
+    }
+
+    .menu{
+        display: block;
+        width: 100px;
+        position: fixed;
+        top: 5px;
+        right: 5px;
+        float: right;
+        cursor: pointer;
+        background-color: transparent;
+    }
+
+    .hide-mobile-menu{
+        right: -260px !important;
+    }
+}
